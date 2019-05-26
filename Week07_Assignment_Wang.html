@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<!--
+Week 7 Assignment
+Write a JavaScript program that will display a clock on the webpage.
+Note: The output will come every second.
+Expected Console Output:
+"14:37:42" 
+"14:37:43"
+"14:37:44"
+"14:37:45" 
+"14:37:46" 
+"14:37:47"
+-->
+	<head>
+		<title>Week07_Assignment</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+
+	</body>
+	<script>
+	/*
+	  var strTime;
+	  setInterval(function(){ 
+		strTime = new Date().toTimeString().slice(0,8);
+		document.write("\""+strTime + "\"<br>");
+		console.log("\""+strTime + "\"");
+	  }, 1000);	
+	*/
+	
+	
+		(function(){
+			var strTime;
+			setInterval(function(){ 
+				strTime = new Date().toTimeString().slice(0,8);
+				document.write("\""+strTime + "\"<br>");
+				console.log("\""+strTime + "\"");
+			}, 1000);
+		}());
+	</script>
+</html>
